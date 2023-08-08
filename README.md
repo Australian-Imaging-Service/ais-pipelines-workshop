@@ -29,7 +29,7 @@ XNAT instance. It can be installed with
 $ python3 -m venv ~/xnat4tests.venv
 $ source ~/xnat4tests.venv
 (xnat4tests.venv) $ pip install xnat4tests
-(xnat4tests.venv) $ xnat4tests start --with-data openneuro-t1w
+(xnat4tests.venv) $ xnat4tests start
 ```
 
 
