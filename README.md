@@ -33,3 +33,27 @@ $ source ~/xnat4tests.venv/bin/activate
 ```
 
 
+## Editing pipeline specifications
+
+### Clone the community repository
+
+```
+$ git clone git@github.com:Australian-Imaging-Service/pipelines-community
+```
+
+### Install the depdencies in your virtual env
+
+```
+(xnat4tests.venv) $ cd ./pipelines-community
+(xnat4tests.venv) $ pip install -r requirements.txt
+```
+
+
+### Building the specifications
+
+To build the edited specifications, run the following command from your virtualenv from
+the pipelines-community repository you cloned
+
+```
+(xnat4tests.venv) $ arcana deploy make-app ./australian-imaging-service-community xnat:XnatApp --loglevel info --build-dir ~/Desktop/pipelines-build-dir2 --use-test-config
+```

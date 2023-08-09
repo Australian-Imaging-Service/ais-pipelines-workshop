@@ -1,3 +1,3 @@
 xnat4tests
-arcana-xnat
-
+arcana >= 0.10.10
+arcana-xnat >= 0.3.6
