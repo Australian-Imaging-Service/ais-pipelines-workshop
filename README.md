@@ -27,7 +27,7 @@ XNAT instance. It can be installed with
 
 ```
 $ python3 -m venv ~/xnat4tests.venv
-$ source ~/xnat4tests.venv
+$ source ~/xnat4tests.venv/bin/activate
 (xnat4tests.venv) $ pip install xnat4tests
 (xnat4tests.venv) $ xnat4tests start
 ```
