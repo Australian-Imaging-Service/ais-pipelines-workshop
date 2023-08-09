@@ -19,6 +19,14 @@ ways to do this, which depend on your OS. A comprehensive guide can be found
 In most casees, the above instructions will also install pip and virtual env, but if you
 are on Linux you may also need to install the packages separately, e.g. `sudo apt install python3-pip`.
 
+### Adding projects to test XNAT
+
+```
+(xnat4tests.venv) $ xnat4tests add-data simple-dir
+(xnat4tests.venv) $ xnat4tests add-data openneuro-t1w
+(xnat4tests.venv) $ xnat4tests add-data dummydicom
+```
+
 
 ### Install Xnat4Tests in a virtualenv
 
