@@ -69,5 +69,5 @@ To build the edited specifications, run the following command from your virtuale
 the pipelines-community repository you cloned
 
 ```
-(xnat4tests.venv) $ arcana deploy make-app ./australian-imaging-service-community xnat:XnatApp --loglevel info --build-dir ~/pipelines-build-dir --use-test-config
+arcana deploy make-app ./australian-imaging-service-community xnat:XnatApp --loglevel info --build-dir ~/pipelines-build-dir --use-test-config
 ```
