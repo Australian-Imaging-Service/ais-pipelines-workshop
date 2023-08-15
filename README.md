@@ -50,7 +50,7 @@ Xnat4Tests can also generate/download sample data to populate the test XNAT. The
 ### Clone the community repository
 
 ```
-$ git clone git@github.com:Australian-Imaging-Service/pipelines-community
+$ git clone https://github.com/Australian-Imaging-Service/pipelines-community
 ```
 
 ### Install the pipelines-build depdendencies in a new virtual env
