@@ -34,7 +34,7 @@ $ source ~/xnat4tests.venv/bin/activate
 
 ### Adding sample-data to test XNAT
 
-Xnat4Tests can also generate/download sample data to populate the test XNAT. There are currently 3 samnple datasets, "simple-dir", "openneuro-t1w" and "dummydicom". They can be installed with
+Xnat4Tests can also generate/download sample data to populate the test XNAT. There are currently 3 sample datasets, "simple-dir", "openneuro-t1w" and "dummydicom". They can be installed with
 
 ```
 (xnat4tests.venv) $ xnat4tests add-data simple-dir
