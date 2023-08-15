@@ -34,6 +34,10 @@ xnat4tests start
 
 NB: It will take some time to build the Docker image, and then more time again to launch it, ~5 min in total
 
+### Open up your browser to view test XNAT
+
+Type `http://localhost:8080` into your browser and then login to XNAT using the username `admin` and password `admin`
+
 ### Adding sample-data to test XNAT
 
 Xnat4Tests can also generate/download sample data to populate the test XNAT. There are currently 3 sample datasets, "simple-dir", "openneuro-t1w" and "dummydicom". They can be installed with
