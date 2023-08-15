@@ -26,10 +26,10 @@ Next we will install a package called `xnat4tests` that enables you to run your 
 XNAT instance. It can be installed with
 
 ```
-$ python3 -m venv ~/xnat4tests.venv
-$ source ~/xnat4tests.venv/bin/activate
-(xnat4tests.venv) $ pip install xnat4tests
-(xnat4tests.venv) $ xnat4tests start
+python3 -m venv ~/xnat4tests.venv
+source ~/xnat4tests.venv/bin/activate
+pip install xnat4tests
+xnat4tests start
 ```
 
 NB: It will take some time to build the Docker image, and then more time again to launch it, ~5 min in total
@@ -39,9 +39,9 @@ NB: It will take some time to build the Docker image, and then more time again t
 Xnat4Tests can also generate/download sample data to populate the test XNAT. There are currently 3 sample datasets, "simple-dir", "openneuro-t1w" and "dummydicom". They can be installed with
 
 ```
-(xnat4tests.venv) $ xnat4tests add-data simple-dir
-(xnat4tests.venv) $ xnat4tests add-data openneuro-t1w
-(xnat4tests.venv) $ xnat4tests add-data dummydicom
+xnat4tests add-data simple-dir
+xnat4tests add-data openneuro-t1w
+xnat4tests add-data dummydicom
 ```
 
 
@@ -50,16 +50,16 @@ Xnat4Tests can also generate/download sample data to populate the test XNAT. The
 ### Clone the community repository
 
 ```
-$ git clone https://github.com/Australian-Imaging-Service/pipelines-community
+git clone https://github.com/Australian-Imaging-Service/pipelines-community
 ```
 
 ### Install the pipelines-build depdendencies in a new virtual env
 
 ```
-$ python3 -m venv ~/pipelines.venv
-$ source ~/pipelines.venv/bin/activate
-(pipelines.venv) $ cd ./pipelines-community
-(pipelines.venv) $ pip install -r requirements.txt
+python3 -m venv ~/pipelines.venv
+source ~/pipelines.venv/bin/activate
+cd ./pipelines-community
+pip install -r requirements.txt
 ```
 
 
