@@ -32,6 +32,8 @@ $ source ~/xnat4tests.venv/bin/activate
 (xnat4tests.venv) $ xnat4tests start
 ```
 
+NB: It will take some time to build the Docker image, and then more time again to launch it, ~5 min in total
+
 ### Adding sample-data to test XNAT
 
 Xnat4Tests can also generate/download sample data to populate the test XNAT. There are currently 3 sample datasets, "simple-dir", "openneuro-t1w" and "dummydicom". They can be installed with
